@@ -42,7 +42,7 @@ defmodule GSS.Mixfile do
     defp deps do
         [
             {:goth, ">= 0.5.0"},
-            {:httpoison, ">= 0.12.0"},
+            {:httpoison, ">= 1.2.0"},
             {:gen_stage, ">= 0.12.0"},
             {:poison, "~> 3.1"},
             {:earmark, ">= 0.0.0", only: :dev},
